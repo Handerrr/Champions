@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 "> UEFA Champions League</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-champions" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Champions
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#artilheiros" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos Artilheiros
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-champions">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="https://admin.vbetnews.com/uploads/2022/VbetNews%20September/uefachampionsleague.webp" alt="Foto do espaço interno do restaurante">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://files.antena2.com/antena2/public/styles/imagen_despliegue/public/2024-06/RealMadridCL.jpg.webp?VersionId=ZVsdhnSejluQdVHjX1y9eIcl3svzzJfM&itok=-jO031fk" alt="duas taças de vinho">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://gianlucadimarzio.com/images/pallone-champions-2023-2024-image-gpo-min.jpg?p=fb&s=1af929c21c1ef42e4ab70eeb38740c2f" alt="uma mesa com comida">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev"> 
+                 <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+           </button>
+           <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+           </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="https://4.bp.blogspot.com/-ct13yOlplOk/U4EYqZWhWiI/AAAAAAAAADk/cAhYLP0ZUWE/s1600/10410854_756548271058304_6461881285109841974_n.jpg" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">o clube mais campeão</span></h2>
+                        <p>Real Madrid é o clube mais vitorioso da Uefa Champions League, com 15 conquistas o clube merengue é o lider isolado, o segundo é o Milan com 7, com grandes jogadores marcados na história, não existe duvidas que o Real Madrid é o maior clube dessa competição.             
+                        </p>
+                        <h3 class="section-title">Sobre<span class="text-colored"> as ultimas conquistas do clube</span></h3>
+                        <p>As conquistas desse clube são extensas, mas as ultimas com toda certeza ficam marcadas na memória do torcedor madridista, essas são:
+                        </p>
+                        <ul>
+                            <li>2024</li>
+                            <li>2022</li>
+                            <li>2018</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="artilheiros" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Nossos <span class="text-colored">Maiores Artilheiros</span>
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cristiano" class="fw-bold text-start nav-link text-colored active">Cristiano Ronaldo - 141 Gols</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#messi" class="fw-bold text-start nav-link text-colored">Lionel Messi -<br> 129 Gols</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#lewandowski" class="fw-bold text-start nav-link text-colored">Robert Lewandowski - 94 Gols</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#benzema" class="fw-bold text-start nav-link text-colored">Karim Benzema - <br> 90 Gols</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#raul" class="fw-bold text-start nav-link text-colored">Raúl González - <br> 71 Gols</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="cristiano">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://images.performgroup.com/di/library/GOAL/fb/61/cristiano-ronaldo-real-madrid_1pfdgxah3q4io1rplb5mlct7ud.jpg" alt="Cristiano Ronaldo" />
+                                    <h5 class="text-colored fw-bold mt-2">Cristiano Ronaldo</h5>
+                                    <p>
+                                        Mostrando seu premio da bola de ouro pra torcida
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="http://getwallpapers.com/wallpaper/full/a/9/7/897836-cristiano-ronaldo-wallpaper-2018-real-madrid-1920x1080-for-iphone.jpg" alt="Cristiano Ronaldo" />
+                                    <h5 class="text-colored fw-bold mt-2">Cristiano Ronaldo</h5>
+                                    <p>
+                                        Fazendo sua comemoração histórica.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="http://cdn.espn.com.br/image/wide/622_a6882407-3392-31a3-b991-bac4bb265f86.jpg" alt="Cristiano Ronaldo" />
+                                    <h5 class="text-colored fw-bold mt-2">Cristiano Ronaldo</h5>
+                                    <p>
+                                        Beijando a taça da champions após sua conquista
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://www.wdeportes.com/resizer/mjynlqOLRgI5c0GjSyIM0YeSs7U=/3420x2426/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradiomx/KBDELMQ3KJADBMUAYWHKQVVXTU.jpg" alt="Cristiano Ronaldo" />
+                                    <h5 class="text-colored fw-bold mt-2">Cristiano Ronaldo</h5>
+                                    <p>
+                                        Comemorando sua quinta conquista da Champions League
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="messi">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://heavy.com/wp-content/uploads/2015/06/leo-messi-e1433337286210.jpg?quality=65&strip=all" alt="Messi" />
+                                    <h5 class="text-colored fw-bold mt-2">Lionel Messi</h5>
+                                    <p>
+                                        Comemorando sua terceira conquista da champions
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://www.mdzol.com/u/fotografias/m/2020/8/8/f1456x819-945431_1115801_4535.jpg" alt="Messi" />
+                                    <h5 class="text-colored fw-bold mt-2">Lionel Messi</h5>
+                                    <p>
+                                        Comemorando seu golaço de falta contra o Liverpool
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.ytimg.com/vi/pcUAVaBmBn4/maxresdefault.jpg" alt="Messi" />
+                                    <h5 class="text-colored fw-bold mt-2">Lionel Messi</h5>
+                                    <p>
+                                        Messi com suas 7 bolas de Ouro
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://ofuxico.com.br/wp-content/uploads/2022/12/lionel-messi-copa-do-mundo-1024x683.jpg" alt="Messi" />
+                                    <h5 class="text-colored fw-bold mt-2">Lionel Messi</h5>
+                                    <p>
+                                        Levantando a taça da copa do mundo
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="lewandowski">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/7e/09/19/7e0919070b75d44adc86a9a571649a5f.png" alt="Robert Lewandowski" />
+                                    <h5 class="text-colored fw-bold mt-2">Robert Lewandowski</h5>
+                                    <p>
+                                        Lewa deitado com suas conquistas no ano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/7e/09/19/7e0919070b75d44adc86a9a571649a5f.png" alt="Robert Lewandowski" />
+                                    <h5 class="text-colored fw-bold mt-2">Robert Lewandowski</h5>
+                                    <p>
+                                        Lewa deitado com suas conquistas no ano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/7e/09/19/7e0919070b75d44adc86a9a571649a5f.png" alt="Robert Lewandowski" />
+                                    <h5 class="text-colored fw-bold mt-2">Robert Lewandowski</h5>
+                                    <p>
+                                        Lewa deitado com suas conquistas no ano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/7e/09/19/7e0919070b75d44adc86a9a571649a5f.png" alt="Robert Lewandowski" />
+                                    <h5 class="text-colored fw-bold mt-2">Robert Lewandowski</h5>
+                                    <p>
+                                        Lewa deitado com suas conquistas no ano
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="benzema">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://ca-times.brightspotcdn.com/dims4/default/e9c2e05/2147483647/strip/true/crop/5293x3528+0+0/resize/1200x800!/quality/80/?url=https:%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2e%2F07%2F75d99d29e0a832034098ff70081d%2F8b0d7e54668543cb871240950c2cc447" alt="Karim Benzema" />
+                                    <h5 class="text-colored fw-bold mt-2">Karim Benzema</h5>
+                                    <p>
+                                        Karim Benzema mostrando sua bola de ouro pra torcida
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://ca-times.brightspotcdn.com/dims4/default/e9c2e05/2147483647/strip/true/crop/5293x3528+0+0/resize/1200x800!/quality/80/?url=https:%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2e%2F07%2F75d99d29e0a832034098ff70081d%2F8b0d7e54668543cb871240950c2cc447" alt="Karim Benzema" />
+                                    <h5 class="text-colored fw-bold mt-2">Karim Benzema</h5>
+                                    <p>
+                                        Karim Benzema mostrando sua bola de ouro pra torcida
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://ca-times.brightspotcdn.com/dims4/default/e9c2e05/2147483647/strip/true/crop/5293x3528+0+0/resize/1200x800!/quality/80/?url=https:%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2e%2F07%2F75d99d29e0a832034098ff70081d%2F8b0d7e54668543cb871240950c2cc447" alt="Karim Benzema" />
+                                    <h5 class="text-colored fw-bold mt-2">Karim Benzema</h5>
+                                    <p>
+                                        Karim Benzema mostrando sua bola de ouro pra torcida
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://ca-times.brightspotcdn.com/dims4/default/e9c2e05/2147483647/strip/true/crop/5293x3528+0+0/resize/1200x800!/quality/80/?url=https:%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2e%2F07%2F75d99d29e0a832034098ff70081d%2F8b0d7e54668543cb871240950c2cc447" alt="Karim Benzema" />
+                                    <h5 class="text-colored fw-bold mt-2">Karim Benzema</h5>
+                                    <p>
+                                        Karim Benzema mostrando sua bola de ouro pra torcida
+                                    </p>
+                                </div>        
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="raul">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/0b/bf/da/0bbfda233596f6a30cbdb67fc6cc1a52.jpg" alt="Raul Gonzalez" />
+                                    <h5 class="text-colored fw-bold mt-2">Raul Gonzalez</h5>
+                                    <p>
+                                        Raul comemorando após marcar um Gol
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/0b/bf/da/0bbfda233596f6a30cbdb67fc6cc1a52.jpg" alt="Raul Gonzalez" />
+                                    <h5 class="text-colored fw-bold mt-2">Raul Gonzalez</h5>
+                                    <p>
+                                        Raul comemorando após marcar um Gol
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/0b/bf/da/0bbfda233596f6a30cbdb67fc6cc1a52.jpg" alt="Raul Gonzalez" />
+                                    <h5 class="text-colored fw-bold mt-2">Raul Gonzalez</h5>
+                                    <p>
+                                        Raul comemorando após marcar um Gol
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://i.pinimg.com/originals/0b/bf/da/0bbfda233596f6a30cbdb67fc6cc1a52.jpg" alt="Raul Gonzalez" />
+                                    <h5 class="text-colored fw-bold mt-2">Raul Gonzalez</h5>
+                                    <p>
+                                        Raul comemorando após marcar um Gol
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="https://www.facebook.com/RealMadrid/" target="_blank">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="https://www.instagram.com/realmadrid/" target="_blank">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <h5>
+                            Route de Genève 46 - Suiça - SUI
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
